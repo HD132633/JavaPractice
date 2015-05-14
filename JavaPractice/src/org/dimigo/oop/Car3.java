@@ -9,7 +9,6 @@ public class Car3 {
 	
 	public Car3() {
 	}
-	
 	public Car3(String company, String model, String color, int maxspeed, int price) {
 		this.company=company;
 		this.model=model;
