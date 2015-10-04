@@ -24,6 +24,15 @@ public class MelongGenreChart {
 		map.put("발라드", ballad);
 		map.put("댄스",dance);
 		
+		System.out.println("------ << 멜론 장르별 차트 >> ------");
+		printMap(map);
+		
+		System.out.println("------ << 발라드 3위 곡 변경 >> ------");
+		ballad.set(2, new Music("지워도 지워도","차수경"));
+		printMap(map);
+		
+		System.out.println("------ << 발라드 1위 곡 삭제 >> ------");
+		ballad.remove(0);
 		printMap(map);
 	}
 
