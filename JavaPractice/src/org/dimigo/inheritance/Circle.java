@@ -8,8 +8,8 @@ public class Circle extends Figure{
 		this.radius=radius;
 	}
 	
-	public Circle(int centerX, int centerY, int radius){
-		super(centerX, centerY);
+	public Circle(int x, int y, int radius){
+		super(x, y);
 		this.radius=radius;
 	}
 	
